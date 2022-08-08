@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012127667742}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012127667742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012970457080}
+  - component: {fileID: 114000014266209086}
+  m_Layer: 0
+  m_Name: CheckMeshHover
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012970457080
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012127667742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000014266209086
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012127667742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12c0e752d465a89469b3be2c6552553c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listHoverboard:
+  - id: 001
+    mesh: {fileID: 4300000, guid: 20643b9b48f76ef42b753ac7fff544ec, type: 3}
+    material: {fileID: 2100000, guid: 696f83b99cf897340a17b4f3e5fb8cb8, type: 2}
+  - id: 002
+    mesh: {fileID: 4300000, guid: 6d7ad90e4c8958d48a608ba826ffe64e, type: 3}
+    material: {fileID: 2100000, guid: e958d382d0544e0469862f88275de13f, type: 2}
+  - id: 006
+    mesh: {fileID: 4300000, guid: 5ab3af94990f1e645ad46d4418d59956, type: 3}
+    material: {fileID: 2100000, guid: c7bb839c1ad85074b8fac49fc9b5f8e9, type: 2}
+  - id: 007
+    mesh: {fileID: 4300000, guid: f2b714986abd2b24c92f1e49aa5ba725, type: 3}
+    material: {fileID: 2100000, guid: ef9ab9e81ddbfaa4bbfc43de56953bf2, type: 2}
+  - id: 009
+    mesh: {fileID: 4300000, guid: a0b11434bbc81a8488123aea5ed80429, type: 3}
+    material: {fileID: 2100000, guid: 18d340a0855993644a130fb13cb95b97, type: 2}
+  - id: 003
+    mesh: {fileID: 4300000, guid: 731120ccb67ca7d49a1cadce70f8991d, type: 3}
+    material: {fileID: 2100000, guid: 5b0e5d919b1dd48419d858e4ba2c6f6c, type: 2}
+  - id: 004
+    mesh: {fileID: 4300000, guid: 48293a31ad7138b48b90fe63e50bfadb, type: 3}
+    material: {fileID: 2100000, guid: c7d45e5e337c87a4ca519c7a7dba31ab, type: 2}
+  - id: 010
+    mesh: {fileID: 4300000, guid: 24b8d94369e5fb34f9ce7d5daf3412f3, type: 3}
+    material: {fileID: 2100000, guid: f238118fba54ea544a8f3fa013efada8, type: 2}
+  - id: 005
+    mesh: {fileID: 4300000, guid: a33367f1e231d4244a6ec5c17f71e0af, type: 3}
+    material: {fileID: 2100000, guid: 9f1ebaa482f714d4190ca155eb3a5ceb, type: 2}
+  - id: 008
+    mesh: {fileID: 4300000, guid: a594ef993b21a5d4f92f9f8298002005, type: 3}
+    material: {fileID: 2100000, guid: 2b93cab302f9a3246bdb78951e98c7e6, type: 2}

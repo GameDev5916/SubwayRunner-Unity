@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FogCore
+  m_Shader: {fileID: 4800000, guid: 33545bc3e9e773844a3a2e9e9f226121, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FalloffTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: dcf66b6bf16a17a4aa45374ffa27540d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_CW_IBL_Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - V_CW_CW_OPTIONS: 0
+    - V_CW_DEFAULTOPTIONS: 0
+    - V_CW_Label_Tag: 0
+    - V_CW_Label_UnityDefaults: 0
+    - V_CW_PARTICLE_SYSTEM: 0
+    - V_CW_TAG: 0
+    - _ColorStrength: 1.3
+    - _CoreStrength: 1
+    - _CutOutLightCore: 0.5
+    - _InvFade: 3
+    - _Shininess: 0.078125
+    - _TintStrength: 1
+    - _V_CW_Emission_Strength: 1
+    - _V_CW_Fog_Density: 1
+    - _V_CW_Fog_End: 100
+    - _V_CW_Fog_Start: 0
+    - _V_CW_IBL_Contrast: 1
+    - _V_CW_IBL_Intensity: 1
+    - _V_CW_Rim_Bias: 0.2
+    - _V_CW_X_Bend_Bias: 0
+    - _V_CW_X_Bend_Size: 0
+    - _V_CW_Y_Bend_Bias: 0
+    - _V_CW_Y_Bend_Size: 0
+    - _V_CW_Z_Bend_Bias: 0
+    - _V_CW_Z_Bend_Size: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CoreColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _TintColor: {r: 1, g: 0.5369748, b: 0.3602941, a: 0.5019608}
+    - _TintColorB: {r: 1, g: 0.55986404, b: 0.30882353, a: 1}
+    - _V_CW_Emission_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _V_CW_Fog_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _V_CW_Rim_Color: {r: 1, g: 1, b: 1, a: 1}
